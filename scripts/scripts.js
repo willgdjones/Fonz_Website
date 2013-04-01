@@ -9,12 +9,19 @@ $(document).ready(function () {
         lng: -0.1276831,
         width: '600px',
         height: '300px',
-        zoom: 12,
+        zoom: 15,
         zoomControl: true,
+        panControl: true,
         zoomControlOpt: {
             style: 'SMALL',
             position: 'TOP_LEFT'
         },
-        panControl: false
+        click: function(e) {
+            alert('When you click you get this alert!');
+          },
+        dragend: function(e) {
+            alert('When you stop dragging you get this alert!');
+          }
+
     });
 });
