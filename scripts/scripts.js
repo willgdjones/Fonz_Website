@@ -36,8 +36,8 @@ $(document).ready(function () {
 
     var london = new GMaps({
         div: '#London_map',
-        lat: 51.5452579,
-        lng: -0.13459320000004027,
+        lat: 51.5478992,
+        lng: -0.12935059999995246,
         width: '600px',
         height: '300px',
         zoom: 15,
@@ -50,8 +50,8 @@ $(document).ready(function () {
     });
 
     london.addMarker({
-        lat: 51.5452579,
-        lng: -0.13459320000004027,
+        lat: 51.5478992,
+        lng: -0.12935059999995246,
         title: 'Norwich home',
         click: function(e) {
         alert('This is my house!');
